@@ -1,0 +1,6 @@
+package com.demo.consumer.feignCode;
+
+@FeignClient(name = "provider-service",url = "http://localhost:9091")
+public interface FeignClient {
+    get
+}
