@@ -1,6 +1,7 @@
 package com.demo.consumer.httpInterface;
 
 import io.netty.handler.proxy.HttpProxyHandler;
+import jakarta.servlet.http.Part;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestClient;
@@ -45,6 +46,8 @@ public class HttpInterfaceConfig {
 //
 //        return service;
 //    }
+
+
 
     @Bean
     public ProviderHttpInterface restTemplateInterface(){
